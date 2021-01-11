@@ -1,0 +1,63 @@
+{
+  "name": "Marginless Wikipedia",
+  "version": "1.0.0",
+  "namemsg": "skinname-marginless wikipedia",
+  "descriptionmsg": "marginless wikipedia-skin-desc",
+  "url": "https://www.mediawiki.org/wiki/Skin:Marginless Wikipedia",
+  "author": [
+    "[https://skins.wmflabs.org skins.wmflabs.org v.1.0]"
+  ],
+  "type": "skin",
+  "requires": {
+    "MediaWiki": ">= 1.35.0"
+  },
+  "manifest_version": 2,
+  "ValidSkinNames": {
+    "marginless wikipedia": {
+      "class": "SkinMustache",
+      "args": [
+        {
+          "name": "Marginless Wikipedia",
+          "templateDirectory": "skins/Marginless Wikipedia/templates/",
+          "messages": [
+            "msg-sitetitle"
+          ],
+          "styles": [
+            "skins.marginless wikipedia.styles"
+          ],
+          "scripts": [
+            "skins.marginless wikipedia"
+          ]
+        }
+      ]
+    }
+  },
+  "MessagesDirs": {
+    "Marginless Wikipedia": [
+      "i18n"
+    ]
+  },
+  "ResourceFileModulePaths": {
+    "localBasePath": "",
+    "remoteSkinPath": "Marginless Wikipedia"
+  },
+  "ResourceModules": {
+    "skins.marginless wikipedia.styles": {
+      "class": "ResourceLoaderSkinModule",
+      "features": [
+        "elements",
+        "content",
+        "interface",
+        "legacy"
+      ],
+      "styles": [
+        "resources/skin.css"
+      ]
+    },
+    "skins.marginless wikipedia": {
+      "packageFiles": [
+        "resources/skin.js"
+      ]
+    }
+  }
+}
