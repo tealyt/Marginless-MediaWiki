@@ -1,1 +1,1 @@
-// scripts can go here
+/* scripts can go here */

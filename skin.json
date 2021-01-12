@@ -13,36 +13,36 @@
   },
   "manifest_version": 2,
   "ValidSkinNames": {
-    "marginless wikipedia": {
+    "marginless": {
       "class": "SkinMustache",
       "args": [
         {
-          "name": "Marginless Wikipedia",
-          "templateDirectory": "skins/Marginless Wikipedia/templates/",
+          "name": "Marginless",
+          "templateDirectory": "skins/Marginless/templates/",
           "messages": [
             "msg-sitetitle"
           ],
           "styles": [
-            "skins.marginless wikipedia.styles"
+            "skins.marginless.styles"
           ],
           "scripts": [
-            "skins.marginless wikipedia"
+            "skins.marginless"
           ]
         }
       ]
     }
   },
   "MessagesDirs": {
-    "Marginless Wikipedia": [
+    "Marginless": [
       "i18n"
     ]
   },
   "ResourceFileModulePaths": {
     "localBasePath": "",
-    "remoteSkinPath": "Marginless Wikipedia"
+    "remoteSkinPath": "Marginless"
   },
   "ResourceModules": {
-    "skins.marginless wikipedia.styles": {
+    "skins.marginless.styles": {
       "class": "ResourceLoaderSkinModule",
       "features": [
         "elements",
@@ -54,7 +54,7 @@
         "resources/skin.css"
       ]
     },
-    "skins.marginless wikipedia": {
+    "skins.marginless": {
       "packageFiles": [
         "resources/skin.js"
       ]
