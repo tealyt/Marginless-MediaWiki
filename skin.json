@@ -1,9 +1,9 @@
 {
-  "name": "Marginless Wikipedia",
+  "name": "Marginless MediaWiki",
   "version": "1.0.0",
-  "namemsg": "skinname-marginless wikipedia",
-  "descriptionmsg": "marginless wikipedia-skin-desc",
-  "url": "https://www.mediawiki.org/wiki/Skin:Marginless Wikipedia",
+  "namemsg": "skinname-marginless MediaWiki",
+  "descriptionmsg": "marginless MediaWiki-skin-desc",
+  "url": "https://www.mediawiki.org/wiki/Skin:Marginless MediaWiki",
   "author": [
     "[https://skins.wmflabs.org skins.wmflabs.org v.1.0]"
   ],
