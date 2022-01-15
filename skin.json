@@ -9,7 +9,7 @@
   ],
   "type": "skin",
   "requires": {
-    "MediaWiki": ">= 1.35.0"
+    "MediaWiki": ">= 1.37.0"
   },
   "manifest_version": 2,
   "ValidSkinNames": {
@@ -18,7 +18,7 @@
       "args": [
         {
           "name": "Marginless",
-          "templateDirectory": "skins/Marginless/templates/",
+          "templateDirectory": "templates",
           "messages": [
             "msg-sitetitle"
           ],
@@ -46,9 +46,16 @@
       "class": "ResourceLoaderSkinModule",
       "features": [
         "elements",
-        "content",
-        "interface",
-        "legacy"
+        "content-links",
+        "content-thumbnails",
+        "interface-message-box",
+        "interface-category",
+        "content-tables",
+        "i18n-ordered-lists",
+        "i18n-all-lists-margins",
+        "i18n-headings"
+        "content-media",
+        "interface"
       ],
       "styles": [
         "resources/skin.css"
